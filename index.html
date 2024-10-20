@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Aapki Dukaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header with Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">AAPKI DUKAAN</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#" class="search-icon" onclick="toggleSearch()">Search</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="banner">
+            <h1>Welcome to Aapki Dukaan</h1>
+            <p>Your one-stop shop for all your needs</p>
+            <button>Shop Now</button>
+        </section>
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1622209031219-e52006b86cf5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZhc2hpb24lMjBtZW58ZW58MHx8MHx8fDA%3D"
+                        alt="Men's Fashion">
+                    <h3>Men's Fashion</h3>
+                </div>
+                <div class="product">
+                    <img src="https://plus.unsplash.com/premium_photo-1693242804283-f329ba7b53b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+                        alt="Women's Fashion">
+                    <h3>Women's Fashion</h3>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVsZXZpc2lvbnxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Electronics">
+                    <h3>Electronics</h3>
+                </div>
+                <div class="product">
+                    <img src="https://plus.unsplash.com/premium_photo-1661317440179-6b6d43cdc0e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvbWUlMjBhcHBsaWFuY2VzfGVufDB8fDB8fHww"
+                        alt="Home Appliances">
+                    <h3>Home Appliances</h3>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8"
+                        alt="Vegies">
+                    <h3>Vegies</h3>
+                </div>
+                <div class="product">
+                    <img
+                        src="https://images.unsplash.com/photo-1484820540004-14229fe36ca4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D">
+                    <h3>Children's Store<h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Aapki Dukaan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
